@@ -1,0 +1,18 @@
+.start-page__main {
+  display: flex;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  align-items: center;
+}
+
+.start-page__main aside {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.start-page__main section {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}

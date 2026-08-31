@@ -1,0 +1,13 @@
+.home-page__main {
+  width: 100%;
+}
+
+.home-page_intro__section {
+  display: flex;
+  justify-content: center;
+}
+
+.home-page_intro__section figcaption {
+  text-align: center;
+  margin-top: 2rem;
+}
