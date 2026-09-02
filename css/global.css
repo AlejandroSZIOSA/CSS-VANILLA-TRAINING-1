@@ -56,3 +56,10 @@ footer {
   text-align: center;
   font-weight: 600;
 }
+
+#home-header-emoji {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 0;
+  right: 50%;
+}

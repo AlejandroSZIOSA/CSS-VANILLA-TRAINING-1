@@ -1,9 +1,13 @@
 .start-page__main {
-  margin: 0 auto;
+  margin: 1rem auto;
   display: flex;
   column-gap: 2rem;
   row-gap: 2rem;
   align-items: center;
+}
+
+.start-page__main figure {
+  padding: 15px;
 }
 
 .start-page__main aside {
