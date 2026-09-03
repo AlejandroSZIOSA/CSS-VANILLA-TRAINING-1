@@ -2,12 +2,12 @@
   width: 100%;
 }
 
-.home-page_intro__section {
+.home-page__intro-section {
   display: flex;
   justify-content: center;
 }
 
-.home-page_intro__section figcaption {
+.home-page__intro-section figcaption {
   text-align: center;
   margin-top: 2rem;
 }

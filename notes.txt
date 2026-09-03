@@ -1,0 +1,1 @@
+TODO:segir el mismo patron css de la pagina home
