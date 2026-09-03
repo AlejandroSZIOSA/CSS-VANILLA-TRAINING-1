@@ -9,29 +9,6 @@ body {
   line-height: 1.6;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #cddc39;
-  z-index: 1000;
-}
-
-header h1 {
-  margin-left: 10px;
-}
-
-header ul {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-right: 10px;
-  list-style: none;
-}
-
 main {
   width: 90%;
   /*   agrega flechas de deslice
