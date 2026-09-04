@@ -15,4 +15,86 @@
 }
 
 .grids-page__layout-container {
+  display: grid;
+  border: 2px solid black;
+  gap: 1rem;
+  grid-template-columns: 500px 1f 100px;
+  grid-template-rows: 500px 1f 100px;
+  grid-template-areas:
+    "layout-header layout-header layout-nav"
+    "layout-aside layout-main layout-main"
+    "layout-footer layout-footer layout-footer";
+}
+
+/* grid-area must be defined
+ */
+#layout-header {
+  grid-area: layout-header;
+  background-color: blueviolet;
+}
+
+#layout-nav {
+  grid-area: layout-nav;
+  background-color: red;
+}
+#layout-aside {
+  grid-area: layout-aside;
+  background-color: rgb(103, 46, 46);
+}
+#layout-main {
+  grid-area: layout-main;
+  background-color: rgb(30, 103, 167);
+}
+#layout-footer {
+  margin: auto;
+  grid-area: layout-footer;
+  background-color: rgb(71, 167, 86);
+}
+
+.grids-page__box2-section {
+  display: block;
+}
+
+.grids-page__box2-section div {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px 50px;
+}
+
+.grids-page__box2-container div {
+  background-color: blue;
+}
+#box2-1 {
+  background-color: brown;
+}
+#box2-2 {
+  background-color: aqua;
+}
+#box2-3 {
+  background-color: black;
+}
+#box2-4 {
+  background-color: burlywood;
+}
+#box2-5 {
+  background-color: yellowgreen;
+}
+#box2-6 {
+  background-color: wheat;
+}
+
+.grids-page__box3-section div {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+/* this must be block level
+ */
+#box3-inner {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  background-color: blue;
 }

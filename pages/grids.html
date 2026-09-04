@@ -33,10 +33,38 @@
         innehåll och footer. Använd grid-template-areas.
       </p>
       <section>
-        <div class="grids-page__layout-container"></div>
+        <div class="grids-page__layout-container">
+          <div id="layout-header">header</div>
+          <div id="layout-nav">nav</div>
+          <div id="layout-aside">sidebar</div>
+          <div id="layout-main">main</div>
+          <div id="layout-footer">footer</div>
+        </div>
       </section>
-
-      <!-- Your grid content goes here -->
+      <p>
+        6. Skapa en gridlayout med sex rutor i tre kolumner. Använd
+        justify-items och align-items för att testa hur innehållet kan placeras
+        horisontellt och vertikalt i gridcellerna.
+      </p>
+      <section class="grids-page__box2-section">
+        <div>
+          <div id="box2-1"><p>box 1</p></div>
+          <div id="box2-2"><p>box 2</p></div>
+          <div id="box2-3"><p>box 3</p></div>
+          <div id="box2-4"><p>box 4</p></div>
+          <div id="box2-5"><p>box 5</p></div>
+          <div id="box2-6"><p>box 6</p></div>
+        </div>
+      </section>
+      <p>
+        7. Bygg en layout som använder Grid för huvudlayouten och Flexbox för
+        innehållssektionerna inuti gridceller.
+      </p>
+      <section class="grids-page__box3-section grids-page__box2-section">
+        <div>
+          <div id="box3-inner"><p>inner box</p></div>
+        </div>
+      </section>
     </main>
     <script src="../js/header.js" defer></script>
   </body>
