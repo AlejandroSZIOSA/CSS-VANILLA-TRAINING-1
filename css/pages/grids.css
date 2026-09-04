@@ -1,0 +1,18 @@
+.grids-page__main p {
+  margin: 1rem;
+  text-align: left;
+}
+
+.grids-page__grids-container {
+  display: grid;
+  grid-template-rows: repeat(3, 50px);
+  grid-template-columns: repeat(3, 50px);
+  gap: 5px;
+}
+
+.grids-page__grids-container div {
+  background-color: aqua;
+}
+
+.grids-page__layout-container {
+}

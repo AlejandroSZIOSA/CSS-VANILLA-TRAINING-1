@@ -11,7 +11,6 @@ headerContainer.innerHTML = `
   <header>
     <h1>Vanilla</h1>
     <div id="home-header-emoji">🌼</div>
-
     <nav>
       <ul>
         <li>
@@ -25,6 +24,9 @@ headerContainer.innerHTML = `
         </li>
         <li>
           <a href="${rootPath}pages/others.html">Others</a>
+        </li>
+        <li>
+          <a href="${rootPath}pages/grids.html">Grids</a>
         </li>
       </ul>
     </nav>

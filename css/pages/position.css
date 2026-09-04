@@ -1,4 +1,6 @@
 .position-page-card__article {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 16px;
@@ -8,7 +10,7 @@
   background-color: #f9f9f9;
 }
 
-.position-page-card__article header {
+.position-page-card__header {
   display: flex;
   justify-content: space-between;
   align-items: center;

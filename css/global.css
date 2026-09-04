@@ -13,10 +13,12 @@ main {
   width: 90%;
   /*   agrega flechas de deslice
  */
+  /* margin-top: 10rem; */
   min-height: 100vh;
   overflow: hidden;
   overflow: auto;
   overflow: scroll;
+  padding-top: 60px; /* Adjust this value based on the height of your fixed header */
 }
 
 h2 {
